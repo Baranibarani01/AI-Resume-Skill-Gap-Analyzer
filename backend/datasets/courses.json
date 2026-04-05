@@ -1,0 +1,14 @@
+{
+  "machine learning": {
+    "course": "Machine Learning by Andrew Ng",
+    "platform": "Coursera"
+  },
+  "react": {
+    "course": "React Crash Course",
+    "platform": "YouTube"
+  },
+  "mongodb": {
+    "course": "MongoDB for Beginners",
+    "platform": "Udemy"
+  }
+}

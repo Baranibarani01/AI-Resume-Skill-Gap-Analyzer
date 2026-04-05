@@ -1,0 +1,5 @@
+{
+  "Data Scientist": ["python", "sql", "machine learning"],
+  "Frontend Developer": ["html", "css", "javascript", "react"],
+  "Backend Developer": ["python", "nodejs", "mongodb", "sql"]
+}
