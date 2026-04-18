@@ -8,13 +8,14 @@ from services.ats import calculate_ats_score
 from services.chatbot import chatbot_reply
 from services.job_utils import match_jobs
 from services.interview import generate_questions
-
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
+
 
 # Enable frontend connection
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
